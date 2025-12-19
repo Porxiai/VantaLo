@@ -2480,7 +2480,7 @@ end;
 
 Library.NewAuth = function(conf)
 	conf = Config(conf,{
-		Title = "Nothing $ KEY SYSTEM",
+		Title = "Vanta $ KEY SYSTEM",
 		GetKey = function() return 'https://example.com' end,
 		Auth = function(key) if key == '1 or 1' then return key; end; end,
 		Freeze = false,
@@ -3454,6 +3454,6 @@ function Library:Console()
 	return overview;
 end;
 
-print('[ OK ]: Fetch Nothing Library')
+print('[ OK ]: Fetch Vanta Library')
 
 return table.freeze(Library);
